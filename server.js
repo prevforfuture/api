@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const path = require('path')
-const PORT = 80 || 8080
+const PORT = process.env.PORT || 80
 
 const routes = require('./src/routes')
 
